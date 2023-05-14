@@ -5,9 +5,9 @@ import Home from "./Home.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React>
+  <React.StrictMode>
     <Home />
-  </React>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your Home, pass a function

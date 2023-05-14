@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import { ResponsiveEmbed } from "react-responsive-embed";
 import logo from "./Logo.png"; // Import your logo image
+import piggy from "./piggybank.png"; // Import your logo image
 import video from "./video-bg.mp4"; // Import your video file
 
 const Home = () => {
@@ -35,14 +35,16 @@ const Home = () => {
           </nav>
         </header>
         <main>
-          <div className="video-background">
-            <ResponsiveEmbed
-              src={video}
-              ratio="16:9"
-              loop={true}
-              autoplay={true}
-              muted={true}
-            />
+          <video className="video-background" loop autoPlay muted>
+            {/* <div className="video-overlay"></div> */}
+            <source src={video} type="video/mp4" />
+          </video>
+          <div className="video-text">
+            <h1>
+              Brainybucks consultants is a team of independent experts who
+              simplify the complex, so anyone has the power to question and make
+              good decisions for themselves.
+            </h1>
           </div>
 
           <div className="content">
@@ -54,6 +56,9 @@ const Home = () => {
                 <Route path="/subscribe" element={<SubscribePage />} />
               </Routes>
             }
+          </div>
+          <div className="piggy">
+            <img src={piggy} alt="piggy" />
           </div>
         </main>
       </Router>
