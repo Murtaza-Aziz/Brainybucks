@@ -46,7 +46,6 @@ const Home = () => {
               good decisions for themselves.
             </h1>
           </div>
-
           <div className="content">
             {
               <Routes>
@@ -57,10 +56,26 @@ const Home = () => {
               </Routes>
             }
           </div>
+        </main>
+        <div className="section-2">
           <div className="piggy">
             <img src={piggy} alt="piggy" />
           </div>
-        </main>
+          <div className="section-2-text">
+            <h1>Power to the People!</h1>
+            <p>
+              Brainybucks Consultants provides financial know-how for an
+              extraordinary life. <br /> <br />
+              We are a profit for purpose business delivering SME (Subject
+              Matter Experts) for corporate training.
+              <br /> <br /> We use profit to fund financial literacy programs
+              for all.
+            </p>
+            <Link to="/learn-more" id="learn-more" className="pill-button">
+              Learn More
+            </Link>
+          </div>
+        </div>
       </Router>
     </div>
   );
