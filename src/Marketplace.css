@@ -53,61 +53,64 @@ body {
 
   
     .container-market .footer-logo img {
-      position: relative;
-      top: 55%;
-      left: -30.5%;
+      position: absolute;
+      top: 100%;
+      left: -17%;
+      margin-top: -20px;
+      margin-left: -50px;
       width: 10rem; /* Updated measurement using rem units */
       height: 10rem; /* Updated measurement using rem units */
       z-index: 1;
     }
   
     .container-market .footer-text {
-      position: relative;
+      position: absolute;
       font-size: 0.9rem; /* Updated measurement using rem units */
-      top: 13dvh;
-      left: -25%;
+      left: -18%;
+      top: 100%;
+      margin-top: 550px;
+      margin-left: -50px;
       width: 25rem; /* Updated measurement using rem units */
       height: 10rem; /* Updated measurement using rem units */
       z-index: 1;
     }
   
    .Top-logo img {
-    position: relative;
-    top: 20%;
-    left: 11%;
-    width: 20%;
-    height: 50%;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 50%;
+    height: 30%;
    }
 
    .Top-logo h3 {
-    position: relative;
-    top: 19%;
-    left: 4.1%;
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    margin-top: -50px;
+    margin-left: -50px;
     font-size: 1.4rem;
     color: #fff;
     font-weight: 450;
    }
   
     .rectangle-market {
-      position: relative;
-      margin: auto;
-      left: -26%;
-      top: 12dvh;
-      width:40%; /* Updated measurement using rem units */
-      height: 240%; /* Updated measurement using rem units */
+      position: absolute;
+      top: 73%;
+      left: 20%;
+      margin-top: -50px;
+      margin-left: -50px;
+      width:85%; /* Updated measurement using rem units */
+      height: 20%; /* Updated measurement using rem units */
       background-color: rgba(0, 0, 0, 0);
     }
   
-    .rectangle-text-heading-market {
-      position: relative;
-      top: -0.4rem; /* Updated measurement using rem units */
-      left: 5rem; /* Updated measurement using rem units */
-      color: #fff;
-    }
-  
+ 
     .rectangle-text-products-market {
       position: absolute;
-      top: 55%;
+      top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
@@ -160,18 +163,20 @@ body {
     .navbar-toggle {
       display: none;
       position: absolute;
-      top: 1rem; /* Adjust the distance from the top as needed */
-      right: 1rem; /* Adjust the distance from the right as needed */
+      top: 0.2rem; /* Adjust the distance from the top as needed */
+      right: 4rem; /* Adjust the distance from the right as needed */
       z-index: 1;
     }
   
     .navbar-toggle-label {
       display: block;
-      position: relative;
+      position: absolute;
       width: 1rem; /* Updated measurement using rem units */
       height: 0.95rem; /* Updated measurement using rem units */
-      top: -390%;
-      left: 42%;
+      top: 10%;
+      left: 100%;
+      margin-top: -50px;
+      margin-left: -50px;
       cursor: pointer;
     }
   
@@ -200,8 +205,8 @@ body {
       display: block;
       position: absolute;
       padding: 0.925rem; /* Adjust the padding as needed */
-      top: 2rem; /* Adjust the distance from the top as needed */
-      right: 2rem; /* Adjust the distance from the right as needed */
+      top: 3rem; /* Adjust the distance from the top as needed */
+      right: 1rem; /* Adjust the distance from the right as needed */
       /* background-color: #3671E9; */
       text-align: center;
       
