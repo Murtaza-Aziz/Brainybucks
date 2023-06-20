@@ -4,6 +4,132 @@ body {
   }
   
 
+  .container-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .Top-subscribe {
+    position: relative;
+    font-size: 1rem;
+    left: 16vw;
+    top: 18vh;
+    width: 18vw;
+    height: 8vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Top-subscribe h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .logo-subscribe {
+    position: absolute;
+    margin: auto;
+    top: 2%;
+    left: 2%;
+    width: 11dvh;
+    height: 11dvh;
+    z-index: 1;
+  }
+
+  .form-subscribe{
+      position: relative;
+      top: 65vh;
+      left: 25vw;
+      transform: translate(-50%, -50%);
+      width: 40vw;
+      height: 60vh;
+      box-shadow: 0 4px 8px rgba(217, 217, 217, 0);
+      background-color: rgb(217,217,217);
+      padding: 5dvh;
+      z-index: 1;
+  }
+
+  .form-subscribe h5 {
+      color: #000000;
+      margin-top: 4vh;
+      left: 50vh;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      
+  }
+
+  .form-subscribe p {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 7vh;
+  }
+
+    
+
+    .form-option {
+      border-bottom: 2px solid #000000;
+      padding: 10px 0;
+      margin-bottom: 10px;
+    }
+    
+    .form-option label {
+      color: #000000;
+    }
+    
+    .button {
+      position: relative;
+      left: 15.5vw;
+      background-color: rgb(54,113,233);
+      color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 20px;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    
+  
+
+
+    .container-subscribe .footer-logo {
+      position: relative;
+      left: 13vw;
+      top: 5vh;
+      width: 10rem;
+      height: 10rem;
+      z-index: 1;
+    }
+    
+  .container-subscribe .footer-logo img {
+    position: relative;
+    justify-content: center;
+    top: 55vh;
+    width: 10rem;
+    height: 10rem;
+    z-index: 1;
+  }
+
+  .container-subscribe .footer-text {
+    position: relative;
+    font-size: 0.9rem;
+    justify-content: center;
+    top: 65vh;
+    left: 5vw;
+    width: 25rem;
+    height: 10rem;
+    z-index: 1;
+  }
+
+  
+
   
   @media screen and (min-width: 320px)  and (max-width: 600px) {
     html {

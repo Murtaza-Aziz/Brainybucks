@@ -1,17 +1,139 @@
+html{
+ font-size: 16px;
+}
+
+@media (min-width: 1025px) and (max-width: 1920px){
+
 body {
     background: rgb(74,3,166);
     background: linear-gradient(85deg, rgba(74,3,166,1) 3%, rgba(141,25,212,1) 100%);
   }
 
-  .rectangle-market {
-    z-index: 1;
-    margin: 0;
-    width: 30%;
-    height: 200%;
-    left: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 0.625rem;
+  .container-market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  .logo-market {
+    position: absolute;
+    /*top: -11rem; /* Updated measurement using rem units */
+    /*left: -5rem; /* Updated measurement using rem units */
+    margin: auto;
+    top: 1%;
+    left: 1%;
+    width: 30%; /* Updated measurement using rem units */
+    height: 30%; /* Updated measurement using rem units */
+    z-index: 1;
+    }
+
+    .Top-logo img {
+      position: absolute;
+      top: 20%;
+      left: 49%;
+      margin-top: -3%;
+      margin-left: -5%;
+      width: 15%;
+      height: 30%;
+     }
+
+     .Top-logo h3 {
+      position: absolute;
+      top: 50%;
+      left: 44%;
+      margin-top: -1%;
+      margin-left: -1%;
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: 450;
+     }
+
+     .rectangle-market {
+      position: relative;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      left: 20vw;
+      margin-top: 55vh;
+      margin-left: -35vw;
+      width:30%; /* Updated measurement using rem units */
+      background-color: rgba(0, 0, 0, 0);
+    }
+  
+ 
+    .rectangle-text-products-market {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      align-items: stretch;
+    }
+    
+    .rectangle-text-products-market ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .rectangle-text-products-market li {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .rectangle-text-products-market h4 {
+      margin: 0;
+      font-size: 1.5rem; /* Updated measurement using rem units */
+      text-align: center;
+      flex-grow: 1;
+    }
+    
+    .rectangle-text-products-market a {
+      display: flex;
+      align-items: center;
+      padding: 4.2% 5%;
+      border-radius: 2.5rem;
+      background-color: rgba(255, 255, 255, 0.363);
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    
+    
+    .rectangle-text-products-market a img {
+      width: 80px; /* Adjust the width as needed */
+      height: 80px; /* Adjust the height as needed */
+      margin-right: 0.5rem;
+    }
+    
+    .container-market .footer-logo img {
+      position: relative;
+      left: 50%;
+      margin-top: -10%;
+      margin-left: -6%;
+      width: 10rem; /* Updated measurement using rem units */
+      height: 10rem; /* Updated measurement using rem units */
+      z-index: 1;
+    }
+  
+    .container-market .footer-text {
+      position: relative;
+      font-size: 0.9rem; /* Updated measurement using rem units */
+      left: 30%;
+      margin-top: -30%;
+      margin-left: -12%;
+      width: 25rem; /* Updated measurement using rem units */
+      height: 10rem; /* Updated measurement using rem units */
+      z-index: 1;
+    }
+  
+  }
+  
 
   @media screen and (max-width: 600px) {
 

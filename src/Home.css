@@ -23,14 +23,66 @@ body {
 }
 
 
-.rectangle {
+.container .rectangle {
+  position: absolute;
   z-index: 1;
   margin: 0;
   width: 30%;
-  height: 200%;
-  left: 50%;
+  height: 60%;
+  left: 57%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.625rem;
+}
+.rectangle-text-heading {
+  position: relative;
+  top: -0.4rem; /* Updated measurement using rem units */
+  left: 33%; /* Updated measurement using rem units */
+  color: #fff;
+}
+
+.rectangle-text-products {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  color: #fff;
+}
+
+.rectangle-text-products ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rectangle-text-products li {
+  margin-bottom: 1.5rem;
+}
+
+.rectangle-text-products h4 {
+  margin: 0;
+  font-size: 1.5rem; /* Updated measurement using rem units */
+  text-align: center;
+  flex-grow: 1;
+}
+
+.rectangle-text-products a {
+  display: flex;
+  align-items: center;
+  padding: 4.2% 5%;
+  border-radius: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.363);
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.rectangle-text-products a img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  margin-right: 0.5rem;
 }
 
 .buy-button {
@@ -73,9 +125,9 @@ body {
 
 .logo {
   position: relative;
-  top: 5.3125rem; /* Updated measurement using rem units */
-  left: 5.3125rem; /* Updated measurement using rem units */
-  width: 22.5rem; /* Updated measurement using rem units */
+  top: -1%; /* Updated measurement using rem units */
+  left: -5%; /* Updated measurement using rem units */
+  width: 60%; /* Updated measurement using rem units */
   height: 20.5rem; /* Updated measurement using rem units */
   z-index: 1;
 }

@@ -73,7 +73,7 @@ const LearnMorePage = () => {
           </li>
           <li>
             <p>
-              <strong>Implementation:</strong> xecuting the financial plan by
+              <strong>Implementation:</strong> executing the financial plan by
               taking concrete actions, such as opening investment accounts,
               setting up savings plans, or adjusting spending habits.{" "}
             </p>

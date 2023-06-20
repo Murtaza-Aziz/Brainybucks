@@ -3,6 +3,191 @@ body {
     background: linear-gradient(85deg, rgb(73, 3, 165) 3%, rgba(141,25,212,1) 100%);
   }
 
+  .container-learn-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  .logo-learn-more {
+  position: absolute;
+  /*top: -11rem; /* Updated measurement using rem units */
+  /*left: -5rem; /* Updated measurement using rem units */
+  top: 1%;
+  left: 1%;
+  width: 11dvh; /* Updated measurement using rem units */
+  height: 11dvh; /* Updated measurement using rem units */
+  z-index: 1;
+  }
+
+  .Top-logo-learn-more h2{
+  position: relative;
+  top: 8vh;
+  left: 1vw;
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 750;
+  }
+
+  .Top-text-learn-more {
+      position: relative;
+      top: 23vh;
+      left: -15vw;
+      width: 25vw; /* Updated measurement using rem units */
+  }
+
+  .Top-text-learn-more p{
+      font-size: 1.4rem;
+      color: #fff;
+  }
+
+  .Top-img-learn-more {
+      position: relative;
+      top: -20dvh;
+      left: 14vw;
+      width: 30vw; /* Updated measurement using rem units */
+      height: 35vh; /* Updated measurement using rem units */
+  }
+
+  .Top-img-learn-more img{
+      width: 29vw;
+  }
+
+
+  .main-text-heading-learn-more h2{
+      position: relative;
+      top: -10vh;
+      left: 1vw;
+      font-size: 2.5rem;
+      color: #fff;
+      font-weight: 550;
+      }
+
+  .main-text-learn-more {
+      position: relative;
+      top: -13vh;
+      left: 4vw;
+      width: 70vw; /* Updated measurement using rem units */
+  }
+
+  .main-text-learn-more p{
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+      color: #fff;
+  }
+ 
+  .main-text-info-learn-more p{
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: #fff;
+  }
+
+  .main-text-info-learn-more {
+      position: relative;
+      top: -10vh;
+      left: 3.9vw;
+      width: 70%; /* Updated measurement using rem units */
+  }
+
+
+
+
+
+  .main-text-info-learn-more ol{
+      
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+      color: #fff;
+  }
+
+
+  .rectangle-learn-more {
+      position: relative;
+      top: 10vh;
+      left: -1vw;
+      width:50vw; /* Updated measurement using rem units */
+      height: 30vh; /* Updated measurement using rem units */
+      background-color: rgb(71, 9, 151);
+      border-radius: 0.825rem;
+    }
+
+    .rectangle-learn-more h3 {
+      position: relative;
+      left: 15vw;
+      margin-top: 5vh;
+      width:85vw; /* Updated measurement using rem units */
+      height: 5vh; /* Updated measurement using rem units */
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 650;
+    }
+
+    .rectangle-learn-more p {
+      position: relative;
+      top: -2vh;
+      left: 3vw;
+      margin-top: 5vh;
+      width:45vw; /* Updated measurement using rem units */
+      height: 9vh; /* Updated measurement using rem units */
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    .rectangle-learn-more-2 {
+      position: relative;
+      top: 20vh;
+      left: -1vw;
+      width:50vw; /* Updated measurement using rem units */
+      height: 35vh; /* Updated measurement using rem units */
+      background-color: rgb(71, 9, 151);
+      border-radius: 0.825rem;
+    }
+
+      .rectangle-learn-more-2 h3 {
+        position: relative;
+        left: 15vw;
+        margin-top: 5vh;
+        width:85vw; /* Updated measurement using rem units */
+        height: 5vh; /* Updated measurement using rem units */
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 650;
+      }
+
+      .rectangle-learn-more-2 p {
+        position: relative;
+        top: -2vh;
+        left: 3vw;
+        margin-top: 5vh;
+        width:45vw; /* Updated measurement using rem units */
+        height: 9vh; /* Updated measurement using rem units */
+        color: #fff;
+        font-size: 1.1rem;
+      }
+
+
+  .container-learn-more .footer-logo img {
+    position: relative;
+    top: 33vh;
+    left: 6vw;
+    width: 10rem; /* Updated measurement using rem units */
+    height: 10rem; /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
+  .container-learn-more .footer-text {
+    position: relative;
+    font-size: 1rem; /* Updated measurement using rem units */
+    top: 20vh;
+    left: -1vw;
+    width: 25vw; /* Updated measurement using rem units */
+    height: 25vh; /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
 
   @media screen and (max-width: 600px) {
 
