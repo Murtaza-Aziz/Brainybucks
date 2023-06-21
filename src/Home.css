@@ -414,7 +414,7 @@ body {
   position: relative;
   /*top: -11rem; /* Updated measurement using rem units */
   /*left: -5rem; /* Updated measurement using rem units */
-  left: -9dvh;
+  left: -20vw;
   top: -27dvh;
   width: 6dvh; /* Updated measurement using rem units */
   height: 6dvh; /* Updated measurement using rem units */
@@ -425,8 +425,8 @@ body {
   .footer {
     position: relative;
     top: 0rem; /* Updated measurement using rem units */
-    left: 27dvh; /* Updated measurement using rem units */
-    width: 100dvh; /* Updated measurement using rem units */
+    left: -35vw; /* Updated measurement using rem units */
+    width: 30vw; /* Updated measurement using rem units */
     height: 0dvh; /* Updated measurement using rem units */
     z-index: 1;
   }
@@ -461,20 +461,20 @@ body {
 
   .container .rectangle {
     position: relative;
-    top: -25.5rem; /* Updated measurement using rem units */
-    left: 0.2rem; /* Updated measurement using rem units */
-    width: 20rem; /* Updated measurement using rem units */
-    height: 20rem; /* Updated measurement using rem units */
+    top: -50vh; /* Updated measurement using rem units */
+    left: -6vw; /* Updated measurement using rem units */
+    width: 13rem; /* Updated measurement using rem units */
+    height: 43vh; /* Updated measurement using rem units */
   }
 
   .rectangle-text-heading h3{
     position: relative;
-    top: -0.4rem; /* Updated measurement using rem units */
-    left: 5rem; /* Updated measurement using rem units */
+    top: -4.5vh; /* Updated measurement using rem units */
+    left: -17vw; /* Updated measurement using rem units */
     color: #fff;
     font-weight: bold;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1rem;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
@@ -502,7 +502,7 @@ body {
   
   .rectangle-text-products h4 {
     margin: 0;
-    font-size: 1.5rem; /* Updated measurement using rem units */
+    font-size: 0.6rem; /* Updated measurement using rem units */
     text-align: center;
     flex-grow: 1;
   }
@@ -525,81 +525,84 @@ body {
     margin-right: 0.5rem;
   }
   
-  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
 
 
-  .container .nav {
+  .nav {
     display: none;
   }
 
- .container .navbar-toggle {
+  .navbar-toggle {
+    display: none;
+    position: absolute;
+    top: 0.2rem; /* Adjust the distance from the top as needed */
+    right: 4rem; /* Adjust the distance from the right as needed */
+    z-index: 1;
+  }
+
+  .navbar-toggle-label {
     display: block;
     position: absolute;
-      top: 4.3%;
-      right: 7.5%;
-      z-index: 1;
+    width: 1rem; /* Updated measurement using rem units */
+    height: 0.95rem; /* Updated measurement using rem units */
+    top: 10%;
+    left: 100%;
+    margin-top: -50px;
+    margin-left: -50px;
+    cursor: pointer;
   }
 
-  .container .navbar-toggle-label {
+  .navbar-toggle-label span {
     display: block;
-      position: absolute;
-      width: 1rem;
-      height: 0.95rem;
-      top: 10%;
-      left: 100%;
-      margin-top: -50px;
-      margin-left: -50px;
-      cursor: pointer;
-      z-index: 1;
-  }
-
-  .container .navbar-toggle-label span {
-    display: block;
-    width: 0.75rem; /* Updated measurement using rem units */
-   
+    width: 0.95rem; /* Updated measurement using rem units */
+    height: 0.15rem; /* Updated measurement using rem units */
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #fff; /* Added background color for the menu icon */
   }
 
-  .container .navbar-toggle:checked + .navbar-toggle-label span:nth-child(1) {
+  .navbar-toggle:checked + .navbar-toggle-label span:nth-child(1) {
     transform: rotate(45deg) translate(0.15625rem, 0.15625rem); /* Updated measurement using rem units */
   }
 
-  .container .navbar-toggle:checked + .navbar-toggle-label span:nth-child(2) {
+  .navbar-toggle:checked + .navbar-toggle-label span:nth-child(2) {
     opacity: 0;
   }
 
-  .container .navbar-toggle:checked + .navbar-toggle-label span:nth-child(3) {
+  .navbar-toggle:checked + .navbar-toggle-label span:nth-child(3) {
     transform: rotate(-45deg) translate(0.15625rem, -0.15625rem); /* Updated measurement using rem units */
   }
 
-  .container .navbar-toggle:checked ~ .nav {
+  .navbar-toggle:checked ~ .nav {
     display: block;
     position: absolute;
     padding: 0.925rem; /* Adjust the padding as needed */
-    top: 2.5rem; /* Adjust the distance from the top as needed */
+    top: 3rem; /* Adjust the distance from the top as needed */
     right: 1rem; /* Adjust the distance from the right as needed */
     /* background-color: #3671E9; */
     text-align: center;
     
   }
 
-  .container .nav ul {
+  .nav ul {
     flex-direction: column;
     align-items: center;
     margin-top: 0.3125rem; /* Updated measurement using rem units */
     font-size: 1rem;
   }
 
-  .container .nav li {
+  .nav li {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0.15625rem; /* Updated measurement using rem units */
     font-size: 1rem; /* Adjust the font size as needed */
   }
 
-  .container .nav li a {
+  .nav li a {
     color: #fff; /* Adjust the color as needed */
     text-decoration: none;
     padding: 0.5rem; /* Adjust the padding as needed */
@@ -608,7 +611,7 @@ body {
     font-size: 1rem;
   }
 
-  .container .nav li a:hover {
+  .nav li a:hover {
     color: #ccc; /* Adjust the hover color as needed */
   }
 }

@@ -263,8 +263,8 @@ body {
 
   .Top-logo-learn-more h2 {
     position: absolute;
-    top: 20%;
-    left: 22%;
+    top: 42vh;
+    left: 25vw;
     margin-top: -50px;
     margin-left: -50px;
     font-size: 1.2rem;
@@ -274,8 +274,8 @@ body {
 
   .Top-text-learn-more {
     position: absolute;
-    top: 25%;
-    left: 31%;
+    top: 45vh;
+    left: 31vw;
     margin-top: -50px;
     margin-left: -50px;
     width: 70%;
@@ -289,7 +289,7 @@ body {
 
   .Top-img-learn-more {
     position: absolute;
-    top: 50%;
+    top: 69vh;
     left: 30%;
     margin-top: -50px;
     margin-left: -50px;
@@ -304,8 +304,8 @@ body {
 
   .main-text-heading-learn-more h2 {
     position: absolute;
-    top: 75%;
-    left: 30%;
+    top: 95vh;
+    left: 33vw;
     margin-top: -50px;
     margin-left: -50px;
     font-size: 1.2rem;
@@ -315,8 +315,8 @@ body {
 
   .main-text-learn-more {
     position: absolute;
-    top: 80%;
-    left: 30%;
+    top: 97vh;
+    left: 33vw;
     margin-top: -50px;
     margin-left: -50px;
     width: 70%;
@@ -325,7 +325,7 @@ body {
 
   .main-text-info-learn-more {
     position: absolute;
-    top: 100%;
+    top: 120vh;
     left: 25%;
     margin-top: -50px;
     margin-left: -50px;
@@ -355,7 +355,7 @@ body {
 
   .rectangle-learn-more {
     position: absolute;
-    top: 100%;
+    top: 120vh;
     left: 18%;
     margin-top: 750px;
     margin-left: -50px;
@@ -397,13 +397,13 @@ body {
 
   .rectangle-learn-more-2 {
     position: absolute;
-    top: 100%;
+    top: 120vh;
     left: 18%;
     margin-top: 950px;
     margin-left: -50px;
     width: 90%;
     /* Updated measurement using rem units */
-    height: 30%;
+    height: 35vh;
     /* Updated measurement using rem units */
     background-color: rgba(81, 60, 201, 0.384);
   }
@@ -441,7 +441,7 @@ body {
   .container-learn-more .footer-logo img {
     position: absolute;
     top: 100%;
-    left: -17%;
+    left: 3vw;
     margin-top: 1050px;
     margin-left: -50px;
     width: 10rem;
@@ -455,7 +455,7 @@ body {
     position: absolute;
     font-size: 0.9rem;
     /* Updated measurement using rem units */
-    left: -18%;
+    left: -18vw;
     top: 100%;
     margin-top: 1600px;
     margin-left: -50px;
@@ -481,7 +481,7 @@ body {
     z-index: 1;
   }
 
-  .navbar-toggle-label {
+  .container-learn-more .navbar-toggle-label {
     display: block;
     position: absolute;
     width: 1rem;
@@ -489,7 +489,7 @@ body {
     height: 0.95rem;
     /* Updated measurement using rem units */
     top: 10%;
-    left: 100%;
+    left: 100vw;
     margin-top: -50px;
     margin-left: -50px;
     cursor: pointer;
@@ -535,7 +535,7 @@ body {
 
   }
 
-  .nav ul {
+  .container-learn-more .nav ul {
     flex-direction: column;
     align-items: center;
     margin-top: 0.3125rem;
@@ -543,7 +543,7 @@ body {
     font-size: 1rem;
   }
 
-  .nav li {
+  .container-learn-more .nav li {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0.15625rem;
@@ -552,7 +552,7 @@ body {
     /* Adjust the font size as needed */
   }
 
-  .nav li a {
+  .container-learn-more .nav li a {
     color: #fff;
     /* Adjust the color as needed */
     text-decoration: none;

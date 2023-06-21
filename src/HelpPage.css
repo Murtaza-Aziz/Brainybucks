@@ -267,7 +267,7 @@ html {
     position: absolute;
     font-size: 1rem;
     left: 13%;
-    top: 6%;
+    top: 25vh;
     margin-top: 50px;
     margin-left: -50px;
     width: 100%;
@@ -306,7 +306,8 @@ html {
 
   .dropdown {
     position: relative;
-    top: 30%;
+    left: -30vw;
+    top: 18vh;
   }
 
   .dropdown-heading-1 {
@@ -438,8 +439,6 @@ html {
   .container-help .footer-logo {
     position: absolute;
     left: 20%;
-    margin-top: 150px;
-    margin-left: -170px;
     width: 10rem;
     height: 10rem;
     z-index: 1;
@@ -448,9 +447,10 @@ html {
   .container-help .footer-logo img {
     position: absolute;
     justify-content: center;
-    top: 100%;
-    width: 10rem;
-    height: 10rem;
+    top: 40vh;
+    left: 20vw;
+    width: 50vw;
+    height: 25vh;
     z-index: 1;
   }
 
@@ -464,31 +464,29 @@ html {
     z-index: 1;
   }
 
-  .nav {
+  .container-help .nav {
     display: none;
   }
 
-  .navbar-toggle {
+  .container-help  .navbar-toggle {
     display: none;
     position: absolute;
     top: 4.3%;
     right: 7.5%;
-    z-index: 1;
+    z-index: 2;
   }
 
-  .navbar-toggle-label {
+  .container-help .navbar-toggle-label {
     display: block;
     position: absolute;
     width: 1rem;
     height: 0.95rem;
     top: 10%;
-    left: 100%;
-    margin-top: -50px;
-    margin-left: -50px;
+    left: 100vw;
     cursor: pointer;
   }
 
-  .navbar-toggle-label span {
+  .container-help .navbar-toggle-label span {
     display: block;
     width: 0.95rem;
     height: 0.15rem;
@@ -497,19 +495,19 @@ html {
     background-color: #fff;
   }
 
-  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(1) {
+  .container-help .navbar-toggle:checked+.navbar-toggle-label span:nth-child(1) {
     transform: rotate(45deg) translate(0.15625rem, 0.15625rem);
   }
 
-  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(2) {
+  .container-help .navbar-toggle:checked+.navbar-toggle-label span:nth-child(2) {
     opacity: 0;
   }
 
-  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(3) {
+  .container-help .navbar-toggle:checked+.navbar-toggle-label span:nth-child(3) {
     transform: rotate(-45deg) translate(0.15625rem, -0.15625rem);
   }
 
-  .navbar-toggle:checked~.nav {
+  .container-help  .navbar-toggle:checked~.nav {
     display: block;
     position: absolute;
     padding: 0.925rem;
@@ -518,21 +516,21 @@ html {
     text-align: center;
   }
 
-  .nav ul {
+  .container-help .nav ul {
     flex-direction: column;
     align-items: center;
     margin-top: 0.3125rem;
     font-size: 1rem;
   }
 
-  .nav li {
+  .container-help .nav li {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0.15625rem;
     font-size: 1rem;
   }
 
-  .nav li a {
+  .container-help .nav li a {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem;
@@ -541,7 +539,7 @@ html {
     font-size: 1rem;
   }
 
-  .nav li a:hover {
+  .container-help .nav li a:hover {
     color: #ccc;
   }
 }
