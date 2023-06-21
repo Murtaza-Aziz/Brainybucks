@@ -50,6 +50,7 @@ body {
   color: #fff;
 }
 
+
 .rectangle-text-products ul {
   list-style: none;
   padding: 0;
@@ -77,7 +78,9 @@ body {
   text-decoration: none;
 }
 
-
+.rectangle-text-products a:hover {
+  background-color: #424242;
+}
 
 .rectangle-text-products a img {
   width: 30px; /* Adjust the width as needed */
@@ -240,13 +243,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .section-3 p {
   width: 90%;
   margin: 0 auto;
-  font-size: 1.875rem; /* Updated measurement using rem units */
+  font-size: 1.675rem; /* Updated measurement using rem units */
   text-align: center;
   color: #fff;
 }
@@ -256,6 +259,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: #fff;
+  margin-bottom: 60px;
 }
 
 .section-4 {
@@ -279,12 +283,17 @@ body {
   font-weight: bold;
   text-align: center;
   color: #fff;
+  margin-bottom: 60px;
+  margin-top: 100px;
 }
 
 #learn-more {
   margin: 0 auto;
 }
 
+.nav {
+  white-space: nowrap;
+}
 
 .navbar-toggle {
   display: none;
@@ -458,11 +467,17 @@ body {
     height: 20rem; /* Updated measurement using rem units */
   }
 
-  .rectangle-text-heading {
+  .rectangle-text-heading h3{
     position: relative;
     top: -0.4rem; /* Updated measurement using rem units */
     left: 5rem; /* Updated measurement using rem units */
     color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
   }
 
   .rectangle-text-products {
