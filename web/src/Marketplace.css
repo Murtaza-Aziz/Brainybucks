@@ -1,0 +1,364 @@
+html{
+  font-size: 16px;
+ }
+ 
+ @media (min-width: 1025px) and (max-width: 1920px){
+ 
+ body {
+     background: rgb(74,3,166);
+     background: linear-gradient(85deg, rgba(74,3,166,1) 3%, rgba(141,25,212,1) 100%);
+   }
+ 
+   .container-market {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .logo-market {
+     position: absolute;
+     /*top: -11rem; /* Updated measurement using rem units */
+     /*left: -5rem; /* Updated measurement using rem units */
+     margin: auto;
+     top: 1%;
+     left: 1%;
+     width: 30%; /* Updated measurement using rem units */
+     height: 30%; /* Updated measurement using rem units */
+     z-index: 1;
+     }
+ 
+     .Top-logo img {
+       position: absolute;
+       top: 20%;
+       left: 49%;
+       margin-top: -3%;
+       margin-left: -5%;
+       width: 15%;
+       height: 30%;
+      }
+ 
+      .Top-logo h3 {
+       position: absolute;
+       top: 50%;
+       left: 44%;
+       margin-top: -1%;
+       margin-left: -1%;
+       font-size: 1.5rem;
+       color: #fff;
+       font-weight: 450;
+      }
+ 
+      .rectangle-market {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       left: 20vw;
+       margin-top: 55vh;
+       margin-left: -35vw;
+       width:30%; /* Updated measurement using rem units */
+       background-color: rgba(0, 0, 0, 0);
+     }
+   
+  
+     .rectangle-text-products-market {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       text-align: center;
+       color: #fff;
+       align-items: stretch;
+     }
+     
+     .rectangle-text-products-market ul {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+     }
+     
+     .rectangle-text-products-market li {
+       margin-top: 1.5rem;
+       margin-bottom: 1.5rem;
+     }
+     
+     .rectangle-text-products-market h4 {
+       margin: 0;
+       font-size: 1.5rem; /* Updated measurement using rem units */
+       text-align: center;
+       flex-grow: 1;
+     }
+     
+     .rectangle-text-products-market a {
+       display: flex;
+       align-items: center;
+       padding: 4.2% 5%;
+       border-radius: 2.5rem;
+       background-color: rgba(255, 255, 255, 0.363);
+       color: #fff;
+       text-decoration: none;
+     }
+     
+     .rectangle-text-products-market a img {
+       width: 80px; /* Adjust the width as needed */
+       height: 80px; /* Adjust the height as needed */
+       margin-right: 0.5rem;
+     }
+ 
+     .rectangle-text-products-market a:hover {
+       background-color: #424242;
+     }
+     
+     .container-market .footer-logo img {
+       position: relative;
+       left: 50%;
+       margin-top: -10%;
+       margin-left: -6%;
+       width: 10rem; /* Updated measurement using rem units */
+       height: 10rem; /* Updated measurement using rem units */
+       z-index: 1;
+     }
+   
+     .container-market .footer-text {
+       position: relative;
+       font-size: 0.9rem; /* Updated measurement using rem units */
+       left: 30%;
+       margin-top: -30%;
+       margin-left: -12%;
+       width: 25rem; /* Updated measurement using rem units */
+       height: 10rem; /* Updated measurement using rem units */
+       z-index: 1;
+     }
+   
+   }
+   
+ 
+   @media screen and (max-width: 600px) {
+ 
+     html {
+       overflow-x: hidden;
+       
+       
+     }
+   
+     body {
+       position: relative;
+       overflow-x: hidden;
+       background: rgb(74,3,166);
+       background: linear-gradient(85deg, rgba(74,3,166,1) 3%, rgba(141,25,212,1) 100%);
+     }
+ 
+     .container-market {
+       display: grid;
+       top: 0rem; /* Updated measurement using rem units */
+       left: 0rem; /* Updated measurement using rem units */
+       width: 100dvh; /* Updated measurement using rem units */
+       height: 100dvh; /* Updated measurement using rem units */
+       z-index: 1;
+     }
+   
+     
+   
+     .logo-market {
+     position: absolute;
+     /*top: -11rem; /* Updated measurement using rem units */
+     /*left: -5rem; /* Updated measurement using rem units */
+     margin: auto;
+     top: 2%;
+     left: 2%;
+     width: 7dvh; /* Updated measurement using rem units */
+     height: 7dvh; /* Updated measurement using rem units */
+     z-index: 1;
+     }
+ 
+   
+     .container-market .footer-logo img {
+       position: absolute;
+       top: 100%;
+       left: -17%;
+       margin-top: -20px;
+       margin-left: -50px;
+       width: 10rem; /* Updated measurement using rem units */
+       height: 10rem; /* Updated measurement using rem units */
+       z-index: 1;
+     }
+   
+     .container-market .footer-text {
+       position: absolute;
+       font-size: 0.9rem; /* Updated measurement using rem units */
+       left: -18%;
+       top: 100%;
+       margin-top: 550px;
+       margin-left: -50px;
+       width: 25rem; /* Updated measurement using rem units */
+       height: 10rem; /* Updated measurement using rem units */
+       z-index: 1;
+     }
+   
+    .Top-logo img {
+     position: absolute;
+     top: 15%;
+     left: 36%;
+     margin-top: -50px;
+     margin-left: -50px;
+     width: 50%;
+     height: 30%;
+    }
+ 
+    .Top-logo h3 {
+     position: absolute;
+     top: 45%;
+     left: 24%;
+     margin-top: -50px;
+     margin-left: -50px;
+     font-size: 1.4rem;
+     color: #fff;
+     font-weight: 450;
+    }
+   
+     .rectangle-market {
+       position: absolute;
+       top: 73%;
+       left: 20%;
+       margin-top: -50px;
+       margin-left: -50px;
+       width:85%; /* Updated measurement using rem units */
+       height: 20%; /* Updated measurement using rem units */
+       background-color: rgba(0, 0, 0, 0);
+     }
+   
+  
+     .rectangle-text-products-market {
+       position: absolute;
+       top: 65%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 100%;
+       text-align: center;
+       color: #fff;
+     }
+     
+     .rectangle-text-products-market ul {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+     }
+     
+     .rectangle-text-products-market li {
+       margin-bottom: 1.5rem;
+     }
+     
+     .rectangle-text-products-market h4 {
+       margin: 0;
+       font-size: 1.5rem; /* Updated measurement using rem units */
+       text-align: center;
+       flex-grow: 1;
+     }
+     
+     .rectangle-text-products-market a {
+       display: flex;
+       align-items: center;
+       padding: 4.2% 5%;
+       border-radius: 2.5rem;
+       background-color: rgba(255, 255, 255, 0.363);
+       color: #fff;
+       text-decoration: none;
+     }
+     
+     
+     
+     .rectangle-text-products-market a img {
+       width: 30px; /* Adjust the width as needed */
+       height: 30px; /* Adjust the height as needed */
+       margin-right: 0.5rem;
+     }
+     
+     
+   
+   
+     .nav {
+       display: none;
+     }
+   
+     .navbar-toggle {
+       display: none;
+       position: absolute;
+       top: 0.2rem; /* Adjust the distance from the top as needed */
+       right: 4rem; /* Adjust the distance from the right as needed */
+       z-index: 1;
+     }
+   
+     .navbar-toggle-label {
+       display: block;
+       position: absolute;
+       width: 1rem; /* Updated measurement using rem units */
+       height: 0.95rem; /* Updated measurement using rem units */
+       top: 10%;
+       left: 100%;
+       margin-top: -50px;
+       margin-left: -50px;
+       cursor: pointer;
+     }
+   
+     .navbar-toggle-label span {
+       display: block;
+       width: 0.95rem; /* Updated measurement using rem units */
+       height: 0.15rem; /* Updated measurement using rem units */
+       -webkit-transition: all 0.3s ease-in-out;
+       transition: all 0.3s ease-in-out;
+       background-color: #fff; /* Added background color for the menu icon */
+     }
+   
+     .navbar-toggle:checked + .navbar-toggle-label span:nth-child(1) {
+       transform: rotate(45deg) translate(0.15625rem, 0.15625rem); /* Updated measurement using rem units */
+     }
+   
+     .navbar-toggle:checked + .navbar-toggle-label span:nth-child(2) {
+       opacity: 0;
+     }
+   
+     .navbar-toggle:checked + .navbar-toggle-label span:nth-child(3) {
+       transform: rotate(-45deg) translate(0.15625rem, -0.15625rem); /* Updated measurement using rem units */
+     }
+   
+     .navbar-toggle:checked ~ .nav {
+       display: block;
+       position: absolute;
+       padding: 0.925rem; /* Adjust the padding as needed */
+       top: 3rem; /* Adjust the distance from the top as needed */
+       right: 1rem; /* Adjust the distance from the right as needed */
+       /* background-color: #3671E9; */
+       text-align: center;
+       
+     }
+   
+     .nav ul {
+       flex-direction: column;
+       align-items: center;
+       margin-top: 0.3125rem; /* Updated measurement using rem units */
+       font-size: 1rem;
+     }
+   
+     .nav li {
+       margin-left: 0;
+       margin-right: 0;
+       margin-bottom: 0.15625rem; /* Updated measurement using rem units */
+       font-size: 1rem; /* Adjust the font size as needed */
+     }
+   
+     .nav li a {
+       color: #fff; /* Adjust the color as needed */
+       text-decoration: none;
+       padding: 0.5rem; /* Adjust the padding as needed */
+       display: block;
+       transition: color 0.3s ease-in-out;
+       font-size: 1rem;
+     }
+   
+     .nav li a:hover {
+       color: #ccc; /* Adjust the hover color as needed */
+     }
+   }

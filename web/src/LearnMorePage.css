@@ -1,0 +1,570 @@
+body {
+  background: rgb(74, 3, 166);
+  background: linear-gradient(85deg, rgb(73, 3, 165) 3%, rgba(141, 25, 212, 1) 100%);
+}
+
+.container-learn-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.logo-learn-more {
+  position: absolute;
+  /*top: -11rem; /* Updated measurement using rem units */
+  /*left: -5rem; /* Updated measurement using rem units */
+  margin: auto;
+  top: 1%;
+  left: 1%;
+  width: 30%;
+  /* Updated measurement using rem units */
+  height: 30%;
+  /* Updated measurement using rem units */
+  z-index: 1;
+}
+
+.Top-logo-learn-more h2 {
+  position: relative;
+  top: 8vh;
+  left: 1vw;
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 750;
+  margin-bottom: 90px;
+}
+
+.Top-text-learn-more {
+  position: relative;
+  top: 15vh;
+  left: -15vw;
+  width: 25vw;
+  /* Updated measurement using rem units */
+}
+
+.Top-text-learn-more p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.Top-img-learn-more {
+  position: relative;
+  top: -20dvh;
+  left: 14vw;
+  width: 30vw;
+  /* Updated measurement using rem units */
+  height: 35vh;
+  /* Updated measurement using rem units */
+}
+
+.Top-img-learn-more img {
+  width: 29vw;
+}
+
+
+.main-text-heading-learn-more h2 {
+  position: relative;
+  top: -10vh;
+  left: 1vw;
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 750;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.main-text-learn-more {
+  position: relative;
+  top: -13vh;
+  left: 4vw;
+  width: 70vw;
+  /* Updated measurement using rem units */
+}
+
+.main-text-learn-more p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+}
+
+.main-text-info-learn-more p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+.main-text-info-learn-more {
+  position: relative;
+  top: -10vh;
+  left: 3.9vw;
+  width: 70%;
+  /* Updated measurement using rem units */
+}
+
+
+
+
+
+.main-text-info-learn-more ol {
+
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  color: #fff;
+}
+
+
+.rectangle-learn-more {
+  position: relative;
+  top: 10vh;
+  left: -1vw;
+  width: 50vw;
+  /* Updated measurement using rem units */
+  height: 30vh;
+  /* Updated measurement using rem units */
+  background-color: rgb(71, 9, 151);
+  border-radius: 0.825rem;
+}
+
+.rectangle-learn-more h3 {
+  position: relative;
+  left: 15vw;
+  margin-top: 5vh;
+  width: 85vw;
+  /* Updated measurement using rem units */
+  height: 5vh;
+  /* Updated measurement using rem units */
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+
+.rectangle-learn-more p {
+  position: relative;
+  top: -2vh;
+  left: 3vw;
+  margin-top: 5vh;
+  width: 45vw;
+  /* Updated measurement using rem units */
+  height: 9vh;
+  /* Updated measurement using rem units */
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.rectangle-learn-more-2 {
+  position: relative;
+  top: 20vh;
+  left: -1vw;
+  width: 50vw;
+  /* Updated measurement using rem units */
+  height: 35vh;
+  /* Updated measurement using rem units */
+  background-color: rgb(71, 9, 151);
+  border-radius: 0.825rem;
+}
+
+.rectangle-learn-more-2 h3 {
+  position: relative;
+  left: 15vw;
+  margin-top: 5vh;
+  width: 85vw;
+  /* Updated measurement using rem units */
+  height: 5vh;
+  /* Updated measurement using rem units */
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+
+.rectangle-learn-more-2 p {
+  position: relative;
+  top: -2vh;
+  left: 3vw;
+  margin-top: 5vh;
+  width: 45vw;
+  /* Updated measurement using rem units */
+  height: 9vh;
+  /* Updated measurement using rem units */
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+
+.container-learn-more .footer-logo img {
+  position: relative;
+  top: 33vh;
+  left: 6vw;
+  width: 10rem;
+  /* Updated measurement using rem units */
+  height: 10rem;
+  /* Updated measurement using rem units */
+  z-index: 1;
+}
+
+.container-learn-more .footer-text {
+  position: relative;
+  font-size: 1rem;
+  /* Updated measurement using rem units */
+  top: 20vh;
+  left: -1vw;
+  width: 25vw;
+  /* Updated measurement using rem units */
+  height: 25vh;
+  /* Updated measurement using rem units */
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  html {
+    overflow-x: hidden;
+
+
+  }
+
+  body {
+    position: relative;
+    overflow-x: hidden;
+    background: rgb(74, 3, 166);
+    background: linear-gradient(85deg, rgba(74, 3, 166, 1) 3%, rgba(141, 25, 212, 1) 100%);
+  }
+
+  .container-learn-more {
+    display: grid;
+    top: 0rem;
+    /* Updated measurement using rem units */
+    left: 0rem;
+    /* Updated measurement using rem units */
+    width: 100dvh;
+    /* Updated measurement using rem units */
+    height: 100dvh;
+    /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
+
+
+  .logo-learn-more {
+    position: absolute;
+    /*top: -11rem; /* Updated measurement using rem units */
+    /*left: -5rem; /* Updated measurement using rem units */
+    margin: auto;
+    top: 2%;
+    left: 2%;
+    width: 7dvh;
+    /* Updated measurement using rem units */
+    height: 7dvh;
+    /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
+  .Top-logo-learn-more h2 {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    margin-top: -50px;
+    margin-left: -50px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 750;
+  }
+
+  .Top-text-learn-more {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 70%;
+    /* Updated measurement using rem units */
+  }
+
+  .Top-text-learn-more p {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+
+  .Top-img-learn-more {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100%;
+    /* Updated measurement using rem units */
+  }
+
+  .Top-img-learn-more img {
+    width: 70%;
+  }
+
+
+  .main-text-heading-learn-more h2 {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 450;
+  }
+
+  .main-text-learn-more {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 70%;
+    /* Updated measurement using rem units */
+  }
+
+  .main-text-info-learn-more {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 70%;
+    /* Updated measurement using rem units */
+  }
+
+  .main-text-info-learn-more p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: #fff;
+  }
+
+  .main-text-learn-more p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: #fff;
+  }
+
+  .main-text-info-learn-more ol {
+
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: #fff;
+  }
+
+
+  .rectangle-learn-more {
+    position: absolute;
+    top: 100%;
+    left: 18%;
+    margin-top: 750px;
+    margin-left: -50px;
+    width: 90%;
+    /* Updated measurement using rem units */
+    height: 20%;
+    /* Updated measurement using rem units */
+    background-color: rgba(81, 60, 201, 0.384);
+  }
+
+  .rectangle-learn-more h3 {
+    position: absolute;
+    top: 0%;
+    left: 29%;
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 85%;
+    /* Updated measurement using rem units */
+    height: 20%;
+    /* Updated measurement using rem units */
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+
+  .rectangle-learn-more p {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 85%;
+    /* Updated measurement using rem units */
+    height: 20%;
+    /* Updated measurement using rem units */
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .rectangle-learn-more-2 {
+    position: absolute;
+    top: 100%;
+    left: 18%;
+    margin-top: 950px;
+    margin-left: -50px;
+    width: 90%;
+    /* Updated measurement using rem units */
+    height: 30%;
+    /* Updated measurement using rem units */
+    background-color: rgba(81, 60, 201, 0.384);
+  }
+
+  .rectangle-learn-more-2 h3 {
+    position: absolute;
+    top: 0%;
+    left: 29%;
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 85%;
+    /* Updated measurement using rem units */
+    height: 20%;
+    /* Updated measurement using rem units */
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+
+  .rectangle-learn-more-2 p {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 85%;
+    /* Updated measurement using rem units */
+    height: 20%;
+    /* Updated measurement using rem units */
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+
+  .container-learn-more .footer-logo img {
+    position: absolute;
+    top: 100%;
+    left: -17%;
+    margin-top: 1050px;
+    margin-left: -50px;
+    width: 10rem;
+    /* Updated measurement using rem units */
+    height: 10rem;
+    /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
+  .container-learn-more .footer-text {
+    position: absolute;
+    font-size: 0.9rem;
+    /* Updated measurement using rem units */
+    left: -18%;
+    top: 100%;
+    margin-top: 1600px;
+    margin-left: -50px;
+    width: 25rem;
+    /* Updated measurement using rem units */
+    height: 10rem;
+    /* Updated measurement using rem units */
+    z-index: 1;
+  }
+
+
+  .nav {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: none;
+    position: absolute;
+    top: 0.2rem;
+    /* Adjust the distance from the top as needed */
+    right: 4rem;
+    /* Adjust the distance from the right as needed */
+    z-index: 1;
+  }
+
+  .navbar-toggle-label {
+    display: block;
+    position: absolute;
+    width: 1rem;
+    /* Updated measurement using rem units */
+    height: 0.95rem;
+    /* Updated measurement using rem units */
+    top: 10%;
+    left: 100%;
+    margin-top: -50px;
+    margin-left: -50px;
+    cursor: pointer;
+  }
+
+  .navbar-toggle-label span {
+    display: block;
+    width: 0.95rem;
+    /* Updated measurement using rem units */
+    height: 0.15rem;
+    /* Updated measurement using rem units */
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    /* Added background color for the menu icon */
+  }
+
+  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(1) {
+    transform: rotate(45deg) translate(0.15625rem, 0.15625rem);
+    /* Updated measurement using rem units */
+  }
+
+  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle:checked+.navbar-toggle-label span:nth-child(3) {
+    transform: rotate(-45deg) translate(0.15625rem, -0.15625rem);
+    /* Updated measurement using rem units */
+  }
+
+  .navbar-toggle:checked~.nav {
+    display: block;
+    position: absolute;
+    padding: 0.925rem;
+    /* Adjust the padding as needed */
+    top: 3rem;
+    /* Adjust the distance from the top as needed */
+    right: 1rem;
+    /* Adjust the distance from the right as needed */
+    /* background-color: #3671E9; */
+    text-align: center;
+
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.3125rem;
+    /* Updated measurement using rem units */
+    font-size: 1rem;
+  }
+
+  .nav li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0.15625rem;
+    /* Updated measurement using rem units */
+    font-size: 1rem;
+    /* Adjust the font size as needed */
+  }
+
+  .nav li a {
+    color: #fff;
+    /* Adjust the color as needed */
+    text-decoration: none;
+    padding: 0.5rem;
+    /* Adjust the padding as needed */
+    display: block;
+    transition: color 0.3s ease-in-out;
+    font-size: 1rem;
+  }
+
+  .nav li a:hover {
+    color: #ccc;
+    /* Adjust the hover color as needed */
+  }
+}
